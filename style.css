@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Lato', sans-serif;
+}
+.headertop{
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+}
+.headertop i{
+    color: orangered;
+}
+input[type="checkbox"]:checked~ul{
+    display: none; }
+#box{
+    display: none;
+}
+header,.sec3{
+    background-color: #d1e3ff;
+    height: 122vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+nav a{
+    color: #0355cc;
+    font-size: 2em;
+    margin: 10px;
+    font-weight: bold;
+}
+nav ul {list-style: none;
+
+}
+ul li a{
+    color: black;
+    font-size: 1.2em;
+}
+.repair h1,.sec3txt h1{
+    color: #0355cc;
+    font-size: 2em;
+    padding: 20px;
+}
+.repair p,.sec3txt p{
+    font-size: 1em;
+    color: #25253d;
+    padding: 20px;
+}
+.repair button,.sec3txt button{
+    color: #fff;
+    background-color: orangered;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+.repairimg img{
+    width: 60%;
+    margin: 10px 50px;
+}
+.sec,.sec4{
+    margin: auto;
+    padding: 50px 30px;
+}
+.card{
+    text-align: center;
+    width: 100%;
+    border: solid 1px #fdfdfd;
+    margin-top: 20px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 2px 3px 3px 3px #dcd9d9;
+    color: #0355cc;
+}
+.card h4,.sec4card h4{
+    font-size: 1.3em;
+    padding-top:15px ;
+}
+.org{
+    color: #fff;
+    background-color: orangered;
+}
+.card:hover{
+    color: #fff;
+    background-color: orangered;
+
+}
+.card img,.sec4card img{
+    width: 80px;
+}
+.aboutus h3{
+   font-size: 2em;
+   padding: 10px;
+}
+.aboutus p{
+    padding-left: 10px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.aboutus button,.sec4 button{
+    color: #fff;
+    background-color: #0355cc;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.3em;
+}
+.aboutimg img{
+    width: 100%;
+    object-fit: contain;
+    margin-left: 10px;
+}
+.sec4card{
+    text-align: center;
+    width: 100%;
+    border: solid 1px #fdfdfd;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 3px 3px 3px #dcd9d9;
+    color: black;
+}
+.sec4card p{
+    padding-top: 20px;
+}
+.sec4{
+    text-align: center;
+}
+.sec5{
+    margin: auto;
+    padding: 30px 0;
+}
+form{
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    padding: 30px;
+}
+#message{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: none;
+    box-shadow: 2px 3px 3px 3px gray;
+}
+form input{
+    border: none;
+    box-shadow: 2px 3px 3px 3px gray;
+    width: 100%;
+    padding:20px ;
+    margin: 10px 0;
+    
+}
+form h2{
+    font-size: 2em;
+    margin: 10px 0;
+}
+form button{
+    width: 70%;
+    height: 40px;
+    color: #fff;
+    background-color: #113ed4;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+iframe{
+    height: 400px;
+    width:100%;
+    padding: 20px;
+}
+footer{
+ background-color: #0a0f43;
+ color: #fff;
+ text-align: center;
+ padding: 20px;
+}
+footer h3{
+    font-size: 1.8em;
+    margin: 20px;
+}
+footer a{
+    color: #fff;
+    font-size: 2.5em;
+    padding: 10px;
+}
+.touch i{
+    width: 80px;
+    height: 90px;
+    background-color: #0355cc;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.en{
+    width: 0;
+    height: 30px;
+    align-items: center;
+}
+.en1{
+    height: 0;
+    width: 0;
+}
+.uzun{
+    margin: 20px 5px;
+}
+@media only screen and (min-width:768px) {
+    .headertop{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5em;
+    }
+
+    label{
+        display: none;
+    }
+    #box{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a{
+        padding: 20px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+        padding: 30px;
+    }
+    nav ul a{
+        color: #2b2a2a;
+        padding: 20px;
+        font-size: 1.5em;
+    }
+    nav ul a:hover{
+        color: #0355cc;
+    }
+     .headerorta{
+        display: flex;
+        flex-direction: row;
+    }
+    .repair,.sec3txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        width: 50%;
+        margin: 50px;
+    }
+    .repair h1,.sec3txt h1{
+        color: #0355cc;
+        font-size: 3em;
+    }
+   .repair button,.sec3txt button{
+    width: 30%;
+    padding: 20px;
+   }
+   .repair button:hover,.sec3txt button:hover{
+    border:solid 1px orangered;
+    background-color: #d1e3ff;
+    color: orangered;
+    cursor: pointer;
+   }
+   .repair p,.sec3txt p{
+    font-size: 1.2em;
+   }
+    .repairimg{
+        width: 50%;
+    }
+    .repairimg img{
+        height: 110vh;
+        object-fit: cover;
+    }
+    .sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 25%;
+        height: 270px;
+        margin: 15px;
+    }
+    .sec4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec4allcard{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .sec4card{
+        width: 25%;
+       margin-right: 50px;
+    }
+    .sec4card p{
+        font-size: 1.2em;
+    }
+    .card img{
+        width: 100px;
+    }
+    .aboutimg img{
+        width: 100%;
+    }
+    .aboutus{
+        width: 40%;
+    }
+    .aboutus h3{
+        font-size: 3em;
+        padding: 10px;
+     }
+     .aboutus p{
+         padding-left: 10px;
+         font-size: 1.2em;
+         line-height: 1.5em;
+     }
+     .aboutus button,.sec4 button{
+         color: #fff;
+         background-color: #0355cc;
+         margin: 20px 10px;
+         padding: 15px;
+         width: 30%;
+         border: none;
+         border-radius: 3px;
+         font-size: 1.3em;
+         cursor: pointer;
+     }
+     .sec4 button{
+        width: 10%;
+     }
+     .aboutus button:hover,.sec4 button:hover,form button:hover{
+        border:solid 1px #0355cc;
+        background-color: #fff;
+        color: #0355cc;
+        cursor: pointer;
+     }
+     .sec3{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+     .sec3img img{
+        width: 70%;
+       object-fit: contain;
+     }
+     .sec3txt{
+        width: 40%;
+     }
+    .sec5{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       margin-top: 20px;
+    }
+    form{
+        width: 40%;
+        font-size: 2em;
+    }
+    form button{
+        width: 20%;
+        height: 60px;
+     }
+    iframe{
+        width: 40%;
+        height: 500px;
+    }
+    iframe:hover,input:hover{
+        box-shadow: 0px 0px 10px #113ed4;;
+       }
+     .touchall{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      
+    }
+    .touchtxt p{
+        font-size: 1.3em;
+       padding: 10px 0;
+    }
+    .touchi{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    footer h3{
+        padding-left: 20px;
+    }
+    .en1{
+        width: 250px;
+        height: 0;
+    }
+    .touch i{
+        width: 100px;
+        height: 90px;
+    }
+    .touch i:hover{
+        background-color: orange;
+    }
+    .uzunnone,.en{
+        display: none !important;
+    }
+    footer a:hover{
+        color: #0355cc;
+    }
+} 
+
+
